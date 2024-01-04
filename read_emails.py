@@ -31,10 +31,10 @@ worksheet2 = gc.open_by_key(spreadsheet_key).worksheet(worksheet_name2)
 
 
 
-gmail = Gmail(r"C:\\Users\\musin\Downloads\\client_secret_825453086516-r5odmglk4dcji3gbme2ce0qs9311t1f9.apps.googleusercontent.com.json")
+gmail = Gmail(r"C:\Users\musin\Downloads\client_secret_165391943355-amuoo4uhujbpuvdk1cvlovo775tmv0si.apps.googleusercontent.com.json")
 
 query_params = {
-    "newer_than": (12, "hours"),
+    "newer_than": (120, "hours"),
 }
 
 #messages = gmail.get_starred_messages()
